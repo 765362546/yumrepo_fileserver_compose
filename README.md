@@ -1,0 +1,2 @@
+# yumrepo_fileserver_compose
+使用docker-compose创建不同的操作系统，用于下载基于不同系统的rpm包，然后创建repo仓库
