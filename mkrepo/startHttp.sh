@@ -16,6 +16,12 @@ status(){
      for f in `ls centos`;do
          echo "http://xxxx/centos/$f"
      done
+     if [ -d third ];then
+     echo '' > third.txt
+     for f in `ls third/`;do
+         echo "third/$f" >>thrid.txt 
+     done
+     fi
  else
      echo "repo is down"
  fi
