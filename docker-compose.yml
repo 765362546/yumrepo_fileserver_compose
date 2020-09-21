@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  ctrl:
+    image: centos:$IMAGE_VER
+    volumes:
+      - $DATA_BASE:/mnt/sysroot
+      - ./mkrepo:/mkrepo
+    command: ["/mkrepo/mkrepo.sh"]
