@@ -17,7 +17,7 @@ status(){
          echo "http://xxxx/centos/$f"
      done
      if [ -d third ];then
-     echo '' > third.txt
+     echo '' > thrid.txt
      for f in `ls third/`;do
          echo "third/$f" >>thrid.txt 
      done
